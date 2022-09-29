@@ -1,1 +1,29 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
+
+#palo-top,
+#palo-bottom {
+  font-size: 70px;
+}
+
+#jugar-medio {
+  margin-top: 80px;
+  margin-bottom: 80px;
+  font-size: 70px;
+}
+
+body {
+  background-color: #3b7f15;
+}
+
+.card {
+  background-color: white;
+  border-radius: 20px;
+  height: 480px;
+  width: 300px;
+  margin: auto;
+  margin-top: 80px;
+}
+
+#palo-bottom {
+  transform: rotate(180deg);
+}
